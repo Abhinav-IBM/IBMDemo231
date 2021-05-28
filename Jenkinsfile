@@ -3,7 +3,13 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        echo 'Stage 1'
+        echo 'IBM_WebAppDevelopment1'
+      }
+    }
+
+    stage('') {
+      steps {
+        echo 'Status is Successfull'
       }
     }
 
